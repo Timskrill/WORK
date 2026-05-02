@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    transition: background 0.3s, color 0.3s;
+}
+
+/* Светлая тема (по умолчанию) */
+body.light {
+    background: #f0f2f5;
+}
+
+body.dark {
+    background: #1e1a10;
+}
+
+.container {
+    max-width: 600px;
+    width: 100%;
+    background: white;
+    border-radius: 8px;
+    padding: 24px;
+    transition: background 0.3s;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+body.dark .container {
+    background: #2c2418;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+body.dark h1 {
+    color: #e8c47e;
+}
+
+.theme-btn {
+    padding: 6px 12px;
+    font-size: 13px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    background: #e0e0e0;
+}
+
+body.dark .theme-btn {
+    background: #5e4a2a;
+    color: #e8c47e;
+    border-color: #b8860b;
+}
+
+textarea {
+    width: 100%;
+    min-height: 200px;
+    padding: 12px;
+    font-size: 14px;
+    font-family: inherit;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    transition: background 0.3s, color 0.3s;
+}
+
+body.dark textarea {
+    background: #3a2e1c;
+    color: #e8c47e;
+    border-color: #b8860b;
+}
+
+textarea:focus {
+    outline: none;
+    border-color: #4a90e2;
+}
+
+.buttons {
+    display: flex;
+    gap: 12px;
+    margin: 16px 0;
+}
+
+button {
+    flex: 1;
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.save {
+    background: #4a90e2;
+    color: white;
+}
+
+.save:hover {
+    background: #357abd;
+}
+
+.clear {
+    background: #e74c3c;
+    color: white;
+}
+
+.clear:hover {
+    background: #c0392b;
+}
+
+.status {
+    font-size: 12px;
+    color: #666;
+    text-align: center;
+    padding-top: 12px;
+    border-top: 1px solid #eee;
+}
+
+body.dark .status {
+    color: #c9a85b;
+    border-top-color: #8b691b;
+}
