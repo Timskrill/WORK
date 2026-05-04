@@ -1,11 +1,11 @@
-const CACHE_NAME = "notes-pwa-v1";
+const CACHE_NAME = "notes-pwa-v2";
 const urlsToCache = [
   "./",
   "./index.html",
   "./style.css",
   "./app.js",
   "./manifest.json",
-  "./icon.png"
+  "./icon.jfif"
 ];
 
 self.addEventListener("install", (event) => {

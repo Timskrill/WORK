@@ -15,14 +15,25 @@
         <h1>Заметки</h1>
         <button id="themeBtn" class="theme-btn">Тёмная тема</button>
     </div>
-    
-    <textarea id="noteInput" placeholder="Введите текст заметки..."></textarea>
-    
+
+    <div class="notes-list">
+        <div class="list-header">
+            <span>Список заметок</span>
+            <button id="newNoteBtn" class="new-note-btn">+ Новая</button>
+        </div>
+        <div id="notesList" class="notes-items"></div>
+    </div>
+
+    <div class="note-editor">
+        <input type="text" id="noteTitle" class="note-title" placeholder="Заголовок заметки">
+        <textarea id="noteContent" class="note-content" placeholder="Введите текст заметки..."></textarea>
+    </div>
+
     <div class="buttons">
         <button id="saveBtn" class="save">Сохранить</button>
-        <button id="clearBtn" class="clear">Очистить</button>
+        <button id="deleteBtn" class="delete">Удалить</button>
     </div>
-    
+
     <div class="status" id="storageStatus"></div>
 </div>
 
