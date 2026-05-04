@@ -1,0 +1,16 @@
+{
+  "name": "Мои Заметки",
+  "short_name": "Заметки",
+  "description": "Простое приложение для заметок",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#4a90e2",
+  "background_color": "#f0f2f5",
+  "icons": [
+    {
+      "src": "icon.jfif",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

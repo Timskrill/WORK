@@ -20,7 +20,7 @@ body.light {
 }
 
 body.dark {
-    background: #1e1a10;
+    background: #1a1a2e;
 }
 
 .container {
@@ -34,7 +34,7 @@ body.dark {
 }
 
 body.dark .container {
-    background: #2c2418;
+    background: #2d2d44;
 }
 
 .header {
@@ -50,7 +50,7 @@ h1 {
 }
 
 body.dark h1 {
-    color: #e8c47e;
+    color: #eee;
 }
 
 .theme-btn {
@@ -63,9 +63,9 @@ body.dark h1 {
 }
 
 body.dark .theme-btn {
-    background: #5e4a2a;
-    color: #e8c47e;
-    border-color: #b8860b;
+    background: #444;
+    color: #eee;
+    border-color: #555;
 }
 
 textarea {
@@ -81,9 +81,9 @@ textarea {
 }
 
 body.dark textarea {
-    background: #3a2e1c;
-    color: #e8c47e;
-    border-color: #b8860b;
+    background: #3d3d5c;
+    color: #eee;
+    border-color: #555;
 }
 
 textarea:focus {
@@ -133,6 +133,6 @@ button {
 }
 
 body.dark .status {
-    color: #c9a85b;
-    border-top-color: #8b691b;
+    color: #aaa;
+    border-top-color: #444;
 }
